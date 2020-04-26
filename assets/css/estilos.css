@@ -1,0 +1,25 @@
+@media (max-width:720px){
+    .eliminacion{
+        display: none;
+    }
+}
+#file{
+    position: relative;
+  }
+  [type="file"]{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+  
+  }
+  .txt{
+    font-size: 13.4px;
+  }
+  .activo{
+    background: #ddd;
+  }
